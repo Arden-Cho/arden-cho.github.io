@@ -12,6 +12,6 @@
 
 ## 聯絡
 | Name     | ID |
-| -----    | -- |
+| --- | --- |
 | Telegram | [@imarden1](https://t.me/imarden1) |
 | Signal   | [arden.99](https://signal.me/#eu/K6uW-fpArQjqOmXSndlx0VUyzGEaxY4mIis9WGnhOrpS_6fDy8BN-ZSLIRpFnIYO) |
