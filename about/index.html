@@ -4,99 +4,81 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>卓羿呈</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    
     <style>
         body {
-            font-family: system-ui, -apple-system, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            max-width: 650px;
+            background-color: #f8f9fa;
+        }
+        .profile-card {
+            max-width: 700px;
             margin: 0 auto;
-            padding: 40px 20px;
-            background-color: #fff;
-        }
-
-        header {
-            margin-bottom: 40px;
-            border-bottom: 1px solid #eee;
-            padding-bottom: 20px;
-        }
-
-        h1 {
-            margin: 0 0 10px 0;
-            font-size: 2em;
-            color: #111;
-        }
-
-        .subtitle {
-            color: #666;
-            font-size: 1.1em;
-            margin: 0;
-        }
-
-        section {
-            margin-bottom: 40px;
-        }
-
-        h2 {
-            font-size: 1.4em;
-            margin-bottom: 20px;
-            color: #111;
-        }
-
-        ul {
-            padding-left: 20px;
-        }
-
-        li {
-            margin-bottom: 10px;
-        }
-
-        .highlight {
-            font-weight: 600;
-            color: #000;
-        }
-
-        .contact-links a {
-            display: inline-block;
-            margin-right: 20px;
-            color: #0066cc;
-            text-decoration: none;
-            font-size: 1.1em;
-        }
-
-        .contact-links a:hover {
-            text-decoration: underline;
         }
     </style>
 </head>
 <body>
 
-    <header>
-        <h1>卓羿呈</h1>
-        <p class="subtitle">大安高工 資訊科 二年級</p>
-    </header>
+    <div class="container py-5">
+        <div class="card shadow-sm profile-card border-0">
+            <div class="card-body p-4 p-md-5">
+                
+                <header class="mb-4 border-bottom pb-4">
+                    <h1 class="display-5 fw-bold text-dark mb-2">卓羿呈</h1>
+                    <p class="h5 text-secondary">大安高工 資訊科 二年級</p>
+                </header>
 
-    <section>
-        <h2>證照與競賽</h2>
-        <ul>
-            <li><span class="highlight">TOEIC 多益聽讀測驗</span>: 滿分 (990)</li>
-            <li><span class="highlight">劍橋英檢 CAE 等級</span>: 185分</li>
-            <li>
-                <span class="highlight">第 55 屆全國技能競賽青年組</span> - 行動應用開發職類
-                <ul>
-                    <li>北區 第一名</li>
-                    <li>全國 第三名</li>
-                </ul>
-            </li>
-        </ul>
-    </section>
+                <section class="mb-5">
+                    <p class="lead">對程式和資安有興趣的高中生，現在在準備資安證照。</p>
+                </section>
 
-    <section>
-        <h2>聯絡方式</h2>
-        <div class="contact-links">
-            <a href="https://t.me/imarden1" target="_blank">Telegram (@imarden1)</a>
-            <a href="https://signal.me/#eu/K6uW-fpArQjqOmXSndlx0VUyzGEaxY4mIis9WGnhOrpS_6fDy8BN-ZSLIRpFnIYO" target="_blank">Signal</a>
+                <section class="mb-5">
+                    <h2 class="h4 border-bottom pb-2 mb-3 text-primary">
+                        <i class="bi bi-trophy-fill me-2"></i>證照與競賽
+                    </h2>
+                    
+                    <ul class="list-group">
+                        <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
+                            <span>
+                                <span class="fw-bold">TOEIC 多益聽讀測驗</span>
+                            </span>
+                            <span class="badge bg-secondary rounded-pill">990 分</span>
+                        </li>
+
+                        <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
+                            <span>
+                                <span class="fw-bold">劍橋英檢 CAE 等級</span>
+                            </span>
+                            <span class="badge bg-secondary rounded-pill">185 分</span>
+                        </li>
+
+                        <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
+                            <span>
+                                <span class="fw-bold">第 55 屆全國技能競賽青年組</span> - 行動應用開發職類
+                            </span>
+                            <span class="badge bg-secondary rounded-pill">第三名</span>
+                        </li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2 class="h4 border-bottom pb-2 mb-3 text-primary">
+                        <i class="bi bi-person-lines-fill me-2"></i>聯絡方式
+                    </h2>
+                    <div class="d-flex gap-3 flex-wrap">
+                        <a href="https://t.me/imarden1" target="_blank" class="btn btn-outline-primary">
+                            <i class="bi bi-telegram me-1"></i> Telegram (@imarden1)
+                        </a>
+                        <a href="https://signal.me/#eu/K6uW-fpArQjqOmXSndlx0VUyzGEaxY4mIis9WGnhOrpS_6fDy8BN-ZSLIRpFnIYO" target="_blank" class="btn btn-outline-primary">
+                            <i class="bi bi-chat-dots-fill me-1"></i> Signal
+                        </a>
+                    </div>
+                </section>
+
+            </div>
         </div>
-    </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
