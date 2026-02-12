@@ -11,6 +11,7 @@ categories:
     - tutorials
 build:
     list: always    # Change to "never" to hide the page from the list
+slug: gcc-on-windows
 ---
 
 ## 下載檔案
