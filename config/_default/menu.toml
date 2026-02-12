@@ -30,3 +30,11 @@
 
     [social.params]
         icon = "brand-discord"
+
+[[social]]
+    identifier = "mail"
+    name       = "Mail"
+    url        = "mailto:hi@easoncho.com"
+
+    [social.params]
+        icon = "mail"
