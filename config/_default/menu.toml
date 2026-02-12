@@ -10,15 +10,23 @@
 [[social]]
     identifier = "github"
     name       = "GitHub"
-    url        = "https://github.com/CaiJimmy/hugo-theme-stack"
+    url        = "https://github.com/Arden-Cho"
 
     [social.params]
         icon = "brand-github"
 
 [[social]]
-    identifier = "twitter"
-    name       = "Twitter"
-    url        = "https://twitter.com"
+    identifier = "telegram"
+    name       = "Telegram"
+    url        = "https://t.me/imarden1"
 
     [social.params]
-        icon = "brand-twitter"
+        icon = "brand-telegram"
+
+[[social]]
+    identifier = "discord"
+    name       = "Discord"
+    url        = "https://discord.com/users/574487545392398337"
+
+    [social.params]
+        icon = "brand-discord"
