@@ -11,7 +11,7 @@ SortBy              = "default"
 
 [footer]
     since      = 2026
-    customText = ""
+    customText = "<!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{\"token\": \"ce961f4ad12a4450899adc0a056c4739\"}'></script><!-- End Cloudflare Web Analytics -->"
 
 [dateFormat]
     published   = ":date_full"
