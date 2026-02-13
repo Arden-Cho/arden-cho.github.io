@@ -4,7 +4,6 @@ description: "在 Windows 上使用 GCC 編譯 C / C++ 原始碼"
 date: 2026-02-12T13:37:01Z
 image: false
 math: false
-license: true
 comments: false
 draft: false
 categories:
