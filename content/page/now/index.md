@@ -1,6 +1,6 @@
 ---
 title: Now
-description: Updated on February 19, 2026
+description: Updated on March 6, 2026
 menu:
     main: 
         params:
@@ -11,7 +11,7 @@ comments: false
 
 ## Japanese Vocabulary
 
-Studying basic Japanese vocabulary with this [Anki Deck](https://ankiweb.net/shared/info/1196762551).
+Studying basic Japanese vocabulary with Duolingo and an [Anki Deck](https://ankiweb.net/shared/info/1196762551).
 
 ## APCS
 
